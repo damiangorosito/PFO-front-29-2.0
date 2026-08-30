@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Damian Gorosito | Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">DG</div>
+
+            <div class="menu">
+                <a href="#sobre-mi">Sobre mí</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#personal">Personal</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+        </nav>
+
+        <section class="presentacion">
+            <div>
+                <p class="saludo">Hola, soy</p>
+
+                <h1>Damian Gorosito</h1>
+
+                <p class="descripcion">
+                    Docente y estudiante de programación interesado
+                    en la tecnología, el desarrollo de software y
+                    la educación.
+                </p>
+
+                <a class="boton" href="#contacto">
+                    Contactarme
+                </a>
+            </div>
+        </section>
+    </header>
+
+
+    <main>
+
+        <!-- SOBRE MÍ -->
+        <section id="sobre-mi" class="seccion">
+            <h2>Sobre mí</h2>
+
+            <p>
+                Soy docente y estudiante vinculado al mundo de la
+                programación y la tecnología. Me interesa aprender
+                nuevas herramientas y desarrollar proyectos que
+                combinen tecnología, creatividad y educación.
+            </p>
+        </section>
+
+
+        <!-- HABILIDADES -->
+        <section id="habilidades" class="seccion">
+
+            <h2>Mis habilidades</h2>
+
+            <div class="habilidades-container">
+
+                <article class="habilidad">
+                    <h3>HTML</h3>
+                    <p>
+                        Creación de estructuras y páginas web
+                        utilizando HTML5.
+                    </p>
+                </article>
+
+                <article class="habilidad">
+                    <h3>CSS</h3>
+                    <p>
+                        Diseño visual, responsive design,
+                        Flexbox y Grid.
+                    </p>
+                </article>
+
+                <article class="habilidad">
+                    <h3>Python</h3>
+                    <p>
+                        Desarrollo de programas y resolución
+                        de problemas mediante programación.
+                    </p>
+                </article>
+
+                <article class="habilidad">
+                    <h3>C#</h3>
+                    <p>
+                        Desarrollo de aplicaciones utilizando
+                        C# y Windows Forms.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- SECCIÓN PERSONAL -->
+        <section id="personal" class="seccion personal">
+
+            <div class="personal-texto">
+
+                <h2>Más sobre mí</h2>
+
+                <p>
+                    Además de la programación y la enseñanza,
+                    me interesan la impresión 3D, los videojuegos,
+                    la tecnología y la creación de proyectos.
+                </p>
+
+                <p>
+                    Busco continuar aprendiendo y utilizar la
+                    tecnología como herramienta para crear,
+                    resolver problemas y compartir conocimientos.
+                </p>
+
+            </div>
+
+            <div class="personal-imagen">
+                <img
+                    src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80"
+                    alt="Componentes electrónicos y tecnología sobre una mesa">
+            </div>
+
+        </section>
+
+
+        <!-- CONTACTO -->
+        <section id="contacto" class="seccion">
+
+            <h2>Contacto</h2>
+
+            <p>
+                Si querés comunicarte conmigo, podés completar
+                el siguiente formulario.
+            </p>
+
+            <form>
+
+                <div class="campo">
+                    <label for="nombre">Nombre</label>
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        placeholder="Tu nombre"
+                        required>
+                </div>
+
+                <div class="campo">
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="tu@email.com"
+                        required>
+                </div>
+
+                <div class="campo">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea
+                        id="mensaje"
+                        name="mensaje"
+                        rows="5"
+                        placeholder="Escribí tu mensaje..."
+                        required></textarea>
+                </div>
+
+                <button type="submit">
+                    Enviar mensaje
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            © 2026 Damian Gorosito
+        </p>
+
+        <a
+            href="https://github.com/damiangorosito"
+            target="_blank"
+            rel="noopener noreferrer">
+            Mi GitHub
+        </a>
+
+    </footer>
+
+</body>
+
+</html>
