@@ -12,6 +12,9 @@ Se uso:
   - CSS Grid
   - Diseño Responsive
 
-El diseño se penso como algo simple y minimalista. 
+El diseño se penso como algo simple y minimalista. Utilizando variantes de mi color favorito: Violeta.
+
+Link Vercel
+https://pfo-front-29-2-0.vercel.app/
 
 La IA se utilizo como un asistnte para dudas y consultas sobre estructuras, errores y estilos.
